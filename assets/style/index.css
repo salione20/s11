@@ -32,6 +32,7 @@
   border-radius: 16px;
   background: rgba(61, 61, 61, 1);
   margin-top: 16px;
+  padding: 16px;
 }
 .box-1 {
   height: 178px;
@@ -50,4 +51,28 @@
 }
 .box-6 {
   height: 264px;
+}
+
+.box.box-1 h3 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.box.box-1 samp {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.4);
+}
+.box.box-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
 }
